@@ -1,0 +1,80 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+form{
+    border: 3px solid rgb(117, 186, 12);
+    width:50%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+input[type=text],
+input[type=password]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(16, 16, 136);
+    box-sizing: border-box;
+}
+
+button{
+    background-color: gr;
+    color: rgb(245, 227, 227);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    background-color:rgb(64, 221, 64) ;
+    font-size: 18px;
+}
+button:hover{
+    opacity: 0.8;
+}
+.cencelbtn{
+    width: auto;
+    padding: 10px 18px;
+    
+    background-color: rgb(232, 24, 24);
+}
+.imgcontainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    
+
+    
+}
+img{
+    width: 40%;
+    border-radius: 50%;
+}
+.container{
+    padding: 16px;
+}
+.mgcontainer{
+    padding: 16px;
+    background-color:rgb(233, 209, 209);
+    
+}
+span.psw{
+float: right;
+padding: 16px;
+}
+@media screen and(max-width:300px){
+    span.psw{
+        display: inline-block;
+        float: none;
+        
+    }
+    .cancelbtn{
+        width: 100%;
+    }
+}
+cheakbox{
+    width:0px;
+}
